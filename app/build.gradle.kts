@@ -265,12 +265,12 @@ android {
         }
         create("clone") {
             initWith(getByName("debug"))
-            applicationIdSuffix = ".clone"
+            applicationIdSuffix = ".yuyuan"
             if (releaseSigningConfig != null) {
                 signingConfig = releaseSigningConfig
             }
             matchingFallbacks += listOf("debug")
-            resValue("string", "app_name", "Operit Clone")
+            resValue("string", "app_name", "渊玉阁")
         }
         create("nightly") {
             isMinifyEnabled = false
